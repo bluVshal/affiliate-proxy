@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Allow your frontend origin
 app.use(cors({
-  origin: "http://127.0.0.1:5501"
+  origin: "https://aquamarine-crostata-3b3624.netlify.app/"
 }));
 
 app.post("/api/register", async (req, res) => {
