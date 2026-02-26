@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Allow your frontend origin
 app.use(cors({
-  origin: "https://affiliates-registration.netlify.app"
+  origin: "https://affiliates-8bet-registration.web.app"
 }));
 
 app.post("/api/register", async (req, res) => {
